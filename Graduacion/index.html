@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es-PE"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#071831"><meta name="description" content="Invitación a la graduación de Inicial 5 años · Colegio Sagrado Corazón de La Molina"><title>Portada · Graduación Inicial 2026 | SCM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Great+Vibes&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#071831;--gold:#e7be62;--cream:#fff0c8;--cyan:#65d8e9;--pink:#f6a5c4;--lime:#b8e79a;--purple:#c5a9ee}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:'DM Sans',sans-serif;color:#fff;background:radial-gradient(circle at 10% 20%,#163a6b,#06142b 65%)}body{overflow:hidden}
+.page{position:relative;isolation:isolate;overflow:hidden;height:100svh;height:100dvh;width:100%;max-width:570px;margin:auto;background:#071831;box-shadow:0 0 80px #0008}
+.slides,.slide{position:absolute;inset:0}.slides{z-index:0;background:#132a48;pointer-events:none}.slide{opacity:0;background-size:cover;background-position:center 26%;transform:scale(1.065);will-change:opacity;transition:opacity 1.2s ease,transform 4s ease}.slide.active{opacity:1;transform:scale(1)}
+/* La parte central y superior queda libre para ver el rostro de cada estudiante. */
+.overlay{position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(180deg,#06172a80 0%,transparent 19%,transparent 44%,#06152b22 56%,#071831e8 75%,#071831 99%)}
+.frame{position:absolute;inset:9px;z-index:4;border:1px solid #f9d88d78;border-radius:19px;pointer-events:none}.frame:before,.frame:after{content:'';position:absolute;top:45%;height:8px;width:8px;border-radius:50%;background:#f8cf79;box-shadow:0 0 15px #ffe7a8}.frame:before{left:-4px}.frame:after{right:-4px}
+.header{position:absolute;top:calc(21px + env(safe-area-inset-top));left:21px;right:75px;display:flex;align-items:center;gap:10px;z-index:5;max-width:330px}
+.logo-box{flex:0 0 60px;width:60px;height:60px;padding:5px;background:#071831dd;backdrop-filter:blur(8px);border:1px solid #eac16c;border-radius:50%;box-shadow:0 5px 20px #03102166;display:flex;align-items:center;justify-content:center}.logo-box img{max-width:100%;max-height:100%;object-fit:contain}
+.school{font-size:clamp(9px,2.2vw,12px);font-weight:800;letter-spacing:.11em;line-height:1.48;text-shadow:0 2px 12px #000d;color:#fff5db;max-width:245px}
+.music{position:absolute;z-index:7;right:22px;top:calc(25px + env(safe-area-inset-top));height:46px;width:46px;display:grid;place-items:center;font-size:21px;cursor:pointer;color:#ffe9bb;border:1px solid #f5d78d;background:#071831c9;border-radius:50%;backdrop-filter:blur(7px)}
+/* Elementos lúdicos en los bordes sin cruzar la cara */
+.decor{position:absolute;pointer-events:none;z-index:3;filter:drop-shadow(0 4px 6px #0004);animation:float 4s ease-in-out infinite}.star1{top:20%;left:4%;color:#ffde7e;font-size:27px}.star2{top:32%;right:4%;color:#e2bbff;font-size:21px;animation-delay:-1.7s}.star3{top:52%;left:3%;color:#b3edf5;font-size:21px;animation-delay:-.8s}.dot1,.dot2,.dot3,.dot4{border-radius:50%;height:10px;width:10px}.dot1{top:27%;left:7%;background:var(--pink)}.dot2{top:38%;right:6%;background:var(--cyan)}.dot3{top:46%;right:5%;background:#e7bd6a}.dot4{top:58%;left:5%;background:var(--lime)}
+.rainbow{position:absolute;top:16%;right:-21px;width:64px;height:95px;z-index:3;opacity:.95;pointer-events:none;border-radius:80px 0 0 80px;background:linear-gradient(90deg,#ed9dc0 0 15%,#f9cb6c 15% 31%,#cce99f 31% 47%,#8bd9e7 47% 63%,#bda7ed 63% 79%,transparent 79%);mask-image:linear-gradient(#000 20%,transparent 95%)}
+.bottom{position:absolute;bottom:calc(37px + env(safe-area-inset-bottom));left:22px;right:22px;z-index:5;text-align:center;display:flex;flex-direction:column;align-items:center;text-shadow:0 3px 18px #0008}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:10px;color:#ffde95;font-weight:800;letter-spacing:.19em;text-transform:uppercase}.eyebrow:before,.eyebrow:after{content:'';height:1px;background:#edc87b;width:28px}
+h1{margin:7px 0 0;font:600 clamp(30px,7.6vw,42px)/1.03 'Playfair Display',serif;letter-spacing:-.04em}h1 em{font:400 clamp(62px,16vw,87px)/.85 'Great Vibes',cursive;color:var(--cream);display:block;letter-spacing:0;margin:4px 0 7px}.initial{font-size:clamp(11px,2.7vw,14px);font-weight:800;letter-spacing:.17em;color:#f8e2ae;text-transform:uppercase}
+.colorbar{display:flex;justify-content:center;gap:8px;margin:12px 0 13px}.colorbar i{width:20px;height:4px;border-radius:6px;background:var(--cyan)}.colorbar i:nth-child(2){background:var(--pink)}.colorbar i:nth-child(3){background:var(--gold)}.colorbar i:nth-child(4){background:var(--lime)}.colorbar i:nth-child(5){background:var(--purple)}
+.date{font-size:12px;letter-spacing:.035em;margin:0;color:#fff9e9}.cta{display:flex;align-items:center;justify-content:center;gap:11px;background:linear-gradient(120deg,#fff1c8,#d9a948 55%,#ffe6a0);color:#071831;text-decoration:none;border:1px solid #fff1c9;border-radius:99px;box-shadow:0 7px 26px #0008;min-height:57px;width:min(100%,300px);margin-top:16px;font-size:12px;letter-spacing:.13em;font-weight:800;transition:transform .2s ease}.cta:hover,.cta:focus-visible{transform:translateY(-3px)}.cta svg{width:19px;height:19px}
+.caption{color:#e4e9f3c4;font-size:10px;letter-spacing:.07em;margin-top:12px}.progress{display:flex;gap:4px;width:100%;max-width:224px;margin-top:12px;height:3px}.progress i{flex:1;border-radius:5px;background:#fff5}.progress i.on{background:var(--gold);box-shadow:0 0 9px #ffdd98}.progress-number{position:absolute;bottom:calc(13px + env(safe-area-inset-bottom));left:0;right:0;text-align:center;font-size:9px;letter-spacing:.16em;color:#fff9c5;z-index:3}
+@keyframes float{50%{transform:translateY(-9px) rotate(6deg)}}
+@media(max-width:380px){.logo-box{width:51px;height:51px;flex-basis:51px}.header{left:19px;right:73px}.bottom{bottom:calc(30px + env(safe-area-inset-bottom))}.cta{min-height:51px;margin-top:11px}.caption{margin-top:9px}.colorbar{margin:8px 0 10px}}
+@media(max-height:720px){h1{font-size:30px}h1 em{font-size:61px}.bottom{bottom:calc(26px + env(safe-area-inset-bottom))}.colorbar{margin:6px 0 8px}.cta{margin-top:10px;min-height:49px}.caption{margin-top:7px}.progress{margin-top:7px}.progress-number{display:none}}
+@media(prefers-reduced-motion:reduce){.decor{animation:none!important}.slide{transition:opacity .5s ease!important;transform:none!important}}
+
+.grad-icons{position:absolute;z-index:4;left:12px;right:12px;top:clamp(95px,15vh,130px);display:flex;justify-content:space-between;pointer-events:none}
+.grad-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:17px;background:#071831b8;border:1px solid #ffffff80;box-shadow:0 5px 18px #0005;backdrop-filter:blur(4px);transform:rotate(-10deg)}
+.grad-icon:nth-child(2){transform:rotate(10deg)}
+.grad-icon svg{width:31px;height:31px;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;fill:none}
+.grad-icon.cap{color:#ffd16d;border-color:#ffd16d}.grad-icon.scroll{color:#8ce2ff;border-color:#8ce2ff}
+.badges{position:absolute;z-index:4;left:15px;right:15px;top:42%;display:flex;justify-content:space-between;pointer-events:none}
+.badge-mini{display:grid;place-items:center;width:37px;height:37px;border-radius:50%;background:#071831b8;border:1px solid #ffffff89;box-shadow:0 3px 14px #0004}
+.badge-mini svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.badge-mini.one{color:#ffa9c7}.badge-mini.two{color:#b9eda4}
+.slide-indicator{position:absolute;right:21px;top:calc(83px + env(safe-area-inset-top));z-index:8;border-radius:30px;padding:5px 10px;color:#fff5dc;background:#061831bf;font-size:10px;letter-spacing:.08em;border:1px solid #d9b56b77}
+@media(max-height:650px){.grad-icons{top:85px}.badges{top:37%}}
+.audio-download{display:inline-flex;justify-content:center;align-items:center;margin-top:9px;color:#ffefbf;font-size:11px;text-decoration:underline;text-underline-offset:3px;text-shadow:0 2px 7px #000b}.audio-download:hover{color:#fff}</style></head><body>
+<main class="page" aria-label="Portada de bienvenida · graduación de Inicial"><div class="slides" aria-hidden="true"><div class="slide active" id="a" style="background-image:url('assets/graduado-01.webp')"></div><div class="slide" id="b" style="background-image:url('assets/graduado-02.webp')"></div></div><div class="overlay"></div><div class="frame"></div>
+<header class="header"><div class="logo-box"><img src="assets/escudo-scm.png" alt="Escudo SCM"></div><div class="school">COLEGIO SAGRADO CORAZÓN<br>DE LA MOLINA</div></header>
+<audio id="audio-graduacion" src="assets/Melodia_Graduacion_Inicial_SCM_2026.mp3" preload="none" loop></audio><button class="music" id="music" type="button" aria-label="Activar música" aria-pressed="false">♫</button>
+<div class="grad-icons" aria-hidden="true"><span class="grad-icon cap"><svg viewBox="0 0 32 32"><path d="m2 12 14-7 14 7-14 7zM8 16v7q8 6 16 0v-7M30 12v10"/><circle cx="30" cy="24" r="2" fill="currentColor"/></svg></span><span class="grad-icon scroll"><svg viewBox="0 0 32 32"><path d="M9 4h14v18H9zM11 9h10M11 13h10M11 17h7M9 23l-4 6 5-2 3 2 3-6M21 23l-3 6 5-2 3 2 2-6"/></svg></span></div><div class="badges" aria-hidden="true"><span class="badge-mini one"><svg viewBox="0 0 24 24"><path d="m12 2 2.7 6.6 7.3.5-5.6 4.7 1.8 7-6.2-3.9-6.2 3.9 1.8-7L2 9.1l7.3-.5z"/></svg></span><span class="badge-mini two"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h8M9 19v3M15 19v3"/></svg></span></div><span class="slide-indicator" id="slide-indicator">01 / 18</span>
+<span class="decor star1" aria-hidden="true">✦</span><span class="decor star2" aria-hidden="true">✧</span><span class="decor star3" aria-hidden="true">✦</span><span class="decor dot1" aria-hidden="true"></span><span class="decor dot2" aria-hidden="true"></span><span class="decor dot3" aria-hidden="true"></span><span class="decor dot4" aria-hidden="true"></span><span class="rainbow" aria-hidden="true"></span>
+<section class="bottom"><div class="eyebrow">¡Lo logramos!</div><h1>Un gran <em>comienzo</em></h1><div class="initial">Graduación · Inicial 5 años</div><div class="colorbar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p class="date">Sábado 21 de noviembre de 2026 · 11:00 a. m.</p><a href="invitacion.html" class="cta">ABRIR INVITACIÓN <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><div class="caption">Una celebración llena de sueños y alegría</div><a class="audio-download" href="assets/Melodia_Graduacion_Inicial_SCM_2026.mp3" download="Melodia_Graduacion_Inicial_SCM_2026.mp3">♫ Descargar música de graduación</a><div class="progress" id="progress" aria-hidden="true"></div></section><div class="progress-number" id="number" aria-live="off">01 / 18 · NUESTROS PEQUEÑOS GRADUADOS</div>
+</main>
+<script>
+(()=>{'use strict';
+const photos=Array.from({length:14},(_,i)=>`assets/graduado-${String(i+1).padStart(2,'0')}.webp`);
+const seq=[...photos,photos[2],photos[7],photos[10],photos[12]];
+const stage=document.querySelector('.slides');
+stage.innerHTML='';
+const slides=seq.map((url,i)=>{const el=document.createElement('div');el.className='slide'+(i===0?' active':'');el.style.backgroundImage=`url("${url}")`;if(i>13)el.style.backgroundPosition=['center 12%','center 40%','center 19%','center 45%'][i-14];stage.appendChild(el);return el});
+let current=0;const progress=document.getElementById('progress');
+seq.forEach((_,i)=>{const dot=document.createElement('i');dot.classList.toggle('on',i===0);progress.appendChild(dot)});
+function show(next){const index=(next+seq.length)%seq.length;if(index===current)return;slides[current].classList.remove('active');slides[index].classList.add('active');current=index;for(let i=0;i<progress.children.length;i++)progress.children[i].classList.toggle('on',i===current);let counter=String(current+1).padStart(2,'0')+' / 18';document.getElementById('number').textContent=counter+' · NUESTROS PEQUEÑOS GRADUADOS';document.getElementById('slide-indicator').textContent=counter;}
+let interval=setInterval(()=>show(current+1),3200);
+document.addEventListener('visibilitychange',()=>{clearInterval(interval);if(!document.hidden)interval=setInterval(()=>show(current+1),3200)});
+const audio=document.getElementById('audio-graduacion');const music=document.getElementById('music');
+music.addEventListener('click',async()=>{if(audio.paused){try{await audio.play()}catch(error){alert('Para reproducir la música, comprueba que el archivo MP3 esté en la carpeta assets.');return}}else audio.pause();});
+function updateMusic(){let on=!audio.paused;music.setAttribute('aria-pressed',String(on));music.setAttribute('aria-label',on?'Pausar música':'Activar música');music.textContent=on?'Ⅱ':'♫';}
+audio.addEventListener('play',updateMusic);audio.addEventListener('pause',updateMusic);
+})();
+</script></body></html>
