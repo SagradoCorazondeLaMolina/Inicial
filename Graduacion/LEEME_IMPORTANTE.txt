@@ -1,0 +1,27 @@
+SCM – GRADUACIÓN INICIAL 2026 | SITIO PARA HOSTING
+
+INCLUIDOS EN ESTE ZIP:
+- index.html: portada independiente con 17 transiciones
+- invitacion.html: invitación con galería de 17 fotografías
+- fotos.js: referencias y nombres correctos de las 34 fotos
+- assets/logo-graduacion.png: logo original adjunto
+- assets/audio-graduacion.mp3: audio adjunto convertido a MP3
+- descargar_fotos.py: utilidad para guardar las fotos originales en el hosting.
+
+ATENCIÓN: LAS 34 IMÁGENES ORIGINALES DE GOOGLE DRIVE NO ESTÁN EN ESTE ZIP.
+Por restricciones de descarga de la sesión, quedaron enlazadas a Google Drive.
+Se incluyen las carpetas assets/portada y assets/galeria vacías para guardar
+17 fotografías originales en cada una.
+
+PARA HACERLO 100% AUTÓNOMO:
+1. Verifica permisos de acceso de lectura a las fotos de Drive.
+2. Con Internet en tu PC ejecuta: python descargar_fotos.py
+3. Confirma que indique '34 /34'. Si falla, descarga manualmente la foto
+   correspondiente en Google Drive y guárdala con el nombre que indica fotos.js,
+   en la carpeta assets/portada o assets/galeria. Edita src/download para
+   apuntar al archivo local.
+4. Sube TODO el contenido de esta carpeta a la raíz de tu hosting.
+5. Abre index.html y comprueba música, 17 transiciones, 17 fotos y descargas.
+
+Puedes subir directamente la versión provisional, pero las fotografías
+seguirán requiriendo acceso a Google Drive hasta completar los 34 archivos.
